@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import axios from 'axios';
 import dotenv from 'dotenv';
 import https from 'https';
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 dotenv.config();
